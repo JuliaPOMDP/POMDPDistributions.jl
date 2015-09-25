@@ -38,7 +38,8 @@ export
     Categorical,
 
     # methods 
-    rand
+    rand,
+    set_prob!
 
 
 ### source files
