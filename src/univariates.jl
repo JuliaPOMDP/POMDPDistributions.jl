@@ -1,5 +1,5 @@
 rand(d::UnivariateDistribution) = quantile(d, rand())
-rand(d::UnivariateDistribution, rng::AbstractRNG) = quantile(d, rand(rng))
+rand(rng::AbstractRNG, d::UnivariateDistribution) = quantile(d, rand(rng))
 
 ##### specific distributions #####
 
