@@ -9,5 +9,5 @@ work with [POMDPs.jl](https://github.com/sisl/POMDPs.jl).
 To install the module run the following command:
 
 ```julia
-Pkg.clone("https://github.com/sisl/POMDPDistriubtions.jl")
+Pkg.clone("https://github.com/sisl/POMDPDistributions.jl")
 ```
