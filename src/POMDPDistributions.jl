@@ -3,6 +3,7 @@ module POMDPDistributions
 using Compat
 
 import Base: size, eltype, length, full, convert, show, getindex, scale, rand, rand!
+import Base: +, -, .+, .-
 
 export
      # generic types
